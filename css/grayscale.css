@@ -102,8 +102,19 @@ a:focus {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
-
 }
+
+@media(max-width: 768px){
+    a.navbar-brand.page-scroll{
+        color: #fff
+    }
+    .navbar-custom a {
+        color: #fff;
+}
+}
+
+
+
 
 .navbar-custom .nav li a:hover {
     outline: 0;
